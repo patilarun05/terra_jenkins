@@ -4,7 +4,9 @@ pipeline {
         }
     
     agent any
-
+    tools{
+        maven 'maven-3.9.6'
+    }
 
     environment{
         aws_access_key_id = credentials('terraCred')
