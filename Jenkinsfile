@@ -2,9 +2,10 @@ pipeline {
     options {
         buildDiscarder(logRotator(numToKeepStr: '5', artifactNumToKeepStr: '5'))
         }
-    agent{
-        any
-    }
+    
+    agent any
+
+
     environment{
         aws_access_key_id = credentials('terraCred')
         aws_secret_access_key = credentials('terraCred')
