@@ -1,4 +1,4 @@
-variable "ami_id" {
+/*variable "ami_id" {
   type = string
 }
 variable "count_id" {
@@ -6,4 +6,4 @@ variable "count_id" {
 }
 variable "instance_type_id" {
   type = string
-}
+}*/
